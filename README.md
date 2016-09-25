@@ -19,11 +19,11 @@ Assumptions =>
 
 5- user has already created a file storing the users AWS user credentials in ~/.aws/credentails file like so:
 
-[name_of_credentials]
+  [name_of_credentials]
 
-aws_access_key_id = your_key_id
+  aws_access_key_id = your_key_id
 
-aws_secret_access_key = your_access_key
+  aws_secret_access_key = your_access_key
 
 
 6- aws s3 bucket is within region:'us-east-1'
@@ -39,11 +39,11 @@ INSTRUCTIONS:
 
 1). create a file at ~/.aws/credentials and input something like this into the file:
 
-[default]
+  [default]
 
-aws_access_key_id = replace_with_your_key_id
+  aws_access_key_id = replace_with_your_key_id
 
-aws_secret_access_key = replace_with_your_access_key
+  aws_secret_access_key = replace_with_your_access_key
 
 
 2). run the script from the command line while within this projects directory like so:
