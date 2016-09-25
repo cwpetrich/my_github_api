@@ -8,10 +8,15 @@ In order to make this work, you must ensure you have a current version of ruby a
 gem install json aws-sdk
 
 Assumptions =>
+
 1- user has valid github credentials
+
 2- user is a member of at leaset one github organization
+
 3- members of organization have public emails (otherwise will find no emails for members)
+
 4- user has access to an AWS S3 Bucket
+
 5- user has already created a file storing the users AWS user credentials in ~/.aws/credentails file like so:
 
 [name_of_credentials]
