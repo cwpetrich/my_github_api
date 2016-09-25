@@ -2,6 +2,7 @@
 basic github api with ruby
 
 NOTES:
+
 In order to make this work, you must ensure you have a current version of ruby and the json and aws-sdk gems installed.
 
 gem install json aws-sdk
