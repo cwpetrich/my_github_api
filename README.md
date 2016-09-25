@@ -44,16 +44,18 @@ INSTRUCTIONS:
   aws_access_key_id = replace_with_your_key_id
 
   aws_secret_access_key = replace_with_your_access_key
-
-
-2). run the script from the command line while within this projects directory like so:
-  ruby my_github_api.rb
   
-3). you will then be prompted for a Github Username
+2). Make necessary changes to my_github_api.rb file for the smtp settings to ensure emails are actually sent.
 
-4). then you will be prompted for a Github organization name (the one you would like to find members that don't have names within)
+3). run the script from the command line while within this projects directory like so:
+  ruby my_github_api.rb
+  or by double clicking on my_github_api.rb file.
+  
+4). you will then be prompted for a Github Username
 
-5). finally you will be prompted for a bucket name in order to save the list of users who don't have names associated with the github accounts.
+5). then you will be prompted for a Github organization name (the one you would like to find members that don't have names within)
+
+6). finally you will be prompted for a bucket name in order to save the list of users who don't have names associated with the github accounts.
 
 All Done!
 
